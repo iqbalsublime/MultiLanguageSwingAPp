@@ -47,7 +47,7 @@ public class LocalDemo extends JPanel {
 		lblNewLabel.setFont(new Font("Siyam Rupali",  Font.BOLD, 14));
 		CommonUtil.setLocale(locale);
 		
-		 btnOk = new JButton(rb.getString("title"));
+		btnOk = new JButton(rb.getString("title"));
 		btnOk.setFont(new Font("Siyam Rupali",  Font.BOLD, 14));
 		add(btnOk);
 		btnOk.addActionListener(new ActionListener() {
